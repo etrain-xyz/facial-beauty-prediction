@@ -57,7 +57,7 @@ Create the `models` directory in the root project and download `shape_predictor_
 mkdir models
 cd models
 wget http://dlib.net/files/shape_predictor_5_face_landmarks.dat.bz2
-tar xjvf shape_predictor_5_face_landmarks.dat.bz2
+bzip2 -d shape_predictor_5_face_landmarks.dat.bz2
 ```
 
 Run test
