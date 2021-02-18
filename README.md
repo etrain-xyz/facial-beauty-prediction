@@ -51,6 +51,7 @@ python benchmark.py
 | RMSE |    0.3514     |  0.3623   |   **0.3471**   |
 
 #### Test
+
 Create the `models` directory in the root project and download `shape_predictor_5_face_landmarks.dat.bz2` file
 
 ```sh
@@ -59,6 +60,8 @@ cd models
 wget http://dlib.net/files/shape_predictor_5_face_landmarks.dat.bz2
 bzip2 -d shape_predictor_5_face_landmarks.dat.bz2
 ```
+
+You can download the [resnet18 pretrained model](https://drive.google.com/file/d/1-JGQ1B9w6dteDHJPNwp-YWDGMcPO16LL/view?usp=sharing) (60% Training and 40% Testing) and put it in the `models` directory.
 
 Run test
 
